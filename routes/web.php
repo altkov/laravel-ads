@@ -7,7 +7,6 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomeController::class);
-
 Route::resource('ads', AdController::class);
 
 Route::middleware('auth')->group(function () {

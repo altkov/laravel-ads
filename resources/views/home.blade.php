@@ -21,13 +21,13 @@
                 </div>
             </section>
 
-            <section class="section-ads">
+            <section class="section-commercials">
                 <h2>Нереально крутые объявления</h2>
                 <p>Может разместить каждый</p>
 
                 <x-ads :ads="$ads" />
 
-                <a href="{{ route('ads.index') }}" class="section-ads__more button">Смотреть все</a>
+                <a href="{{ route('ads.index') }}" class="section-commercials__more button">Смотреть все</a>
             </section>
         </div>
     </main>

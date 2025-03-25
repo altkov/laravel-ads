@@ -1,7 +1,7 @@
 <x-main-layout>
     <main class="main">
         <div class="container">
-            <section class="section-ads">
+            <section class="section-commercials">
                 <h1>Все объявления</h1>
 
                 <form action="{{ route('ads.index') }}" method="GET" class="filter form form_filter">
